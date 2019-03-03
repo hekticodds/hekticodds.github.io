@@ -1,0 +1,92 @@
+body {
+	background-color: rgb(255, 196, 205);
+	background-image: url(../images/bg.jpg);
+	font-family: Helvetica, Arial, sans-serif;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main{
+		background-color: rgba(255,255,255,0.8);
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 20px;
+		border-radius: 20px;
+		box-shadow: 0px 0px 50px 20px rgba(255, 255, 255, 0.65);
+
+}
+
+/* comment */ 
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 48px;
+	margin: 0;
+	text-shadow: 0 0 10px lightblue;
+}
+
+h2 {
+	text-align: center;
+	font-size: 18px;
+	font-weight:normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 0;
+}
+
+h3 {
+	margin-top: 0;
+	cursor: pointer;
+}
+
+h3 + * {
+	display: none;
+}
+
+img {
+	display: block;
+	margin: 20px auto;
+	border: 10px solid yellow;
+	border-radius: 32px 4px;
+	width: 200px;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	.text-decoration: underline;
+	color: limegreen;
+
+}
+
+a:visited {
+	color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
